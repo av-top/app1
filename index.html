@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset=utf-8"utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小草</title>
+<meta http-equiv="Keywords" content="小草视频" />
+<meta http-equiv="Description" content="小草视频" />
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link href="./css/wap.css" rel="stylesheet" type="text/css">
+<style>
+#home{display: none;}
+*{margin:0; padding:0;}
+.weixin-tip img{max-width: 100%; height: auto;}
+.weixin-tip{display: none; position: fixed; left:0; right: 0; top:0; bottom:0; background: rgba(0,0,0,0.8); filter:alpha(opacity=80);  height: 100%; width: 100%; z-index: 100;}
+.weixin-tip p{text-align: center; padding:0 5%;}
+	</style>
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript">
+        $(window).on("load",function(){
+            var winHeight = $(window).height();
+            $("#home").hide();
+            function is_weixin() {
+                var ua = navigator.userAgent.toLowerCase();//获取判断用的对象
+                if ((ua.match(/MicroMessenger/i) == "micromessenger") ||(ua.match(/WeiBo/i) == "weibo")||(ua.match(/QQ/i) == "qq") ||(ua.match(/alipay/i) == "alipay")) {
+                    return true;
+				}else {
+                    return false;
+                }
+            }
+            var isWeixin = is_weixin();
+            if(isWeixin){
+				
+                $(".weixin-tip").css("height",winHeight);
+                $(".weixin-tip").show();
+            }else{
+                $("#home").show();
+            }
+        })
+    </script>
+<script language="javascript" type="text/javascript">
+var initializationTime=(new Date()).getTime();
+function showLeftTime()
+{
+var now=new Date();
+var year=now.getFullYear();
+document.all.show.innerHTML=year;
+var timeID=setTimeout;
+}
+</script>
+<!--[if lt IE 9]>
+		<script src="js/html5shiv.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body onload="showLeftTime()">
+<div id="imgbox" class="weixin-tip">
+          <p> <img src="./images/live_weixin.png" tppabs="./images/live_weixin.png" alt=""/></p>
+    </div>
+	
+	
+<div id="home" class="home">
+	<div class="section">
+
+		<div class="shadow"></div>
+		
+		<div class="container">
+		<div class="logo"><h3 class="f20">XiaoCaoAV.TOP</h3></div>
+		<div class="logo"><h3 class="f20">地址发布页</h3></div></br>
+		<h3 class="f16">警告！- 禁止18岁以下未成年人访问</h3>
+		<p class="f16">本网站是一个提供成人视频内容的网站。</br>它只提供给年龄满18岁的成年人访问。</p>
+		<div class="golink"><a href="https://app1.xiaocaodianying.top/">我已经满18岁（访问）</a></div>
+		
+		<div class="sponsor">
+			<h4 class="f14">赞助商</h4>
+			  <a href="/" target="_blank"><img src="./images/hfad.gif"></a> </div>
+		<div class="foot"><span id="show"></span> &copy; 版权所有
+
+	</div>
+		</div>
+		<div class="vertical-align-hiddendiv "></div>
+		
+	</div>
+	</div>
+	
+	
+
+<div style="display: none">
+</div>
+</body>
+</html>
